@@ -271,7 +271,7 @@ endif
 "+----------------------+
 "+ Language Base Groups +
 "+----------------------+
-call s:hi("Boolean", s:nord9_gui, "", s:nord9_term, "", "", "")
+call s:hi("Boolean", s:nord9_gui, "", s:nord9_term, "", s:italic, "")
 call s:hi("Character", s:nord14_gui, "", s:nord14_term, "", "", "")
 call s:hi("Comment", s:nord3_gui_bright, "", s:nord3_term, "", s:italicize_comments, "")
 call s:hi("Conditional", s:nord9_gui, "", s:nord9_term, "", "", "")
@@ -283,7 +283,7 @@ call s:hi("Float", s:nord15_gui, "", s:nord15_term, "", "", "")
 call s:hi("Function", s:nord8_gui, "", s:nord8_term, "", "", "")
 call s:hi("Identifier", s:nord4_gui, "", "NONE", "", "NONE", "")
 call s:hi("Include", s:nord9_gui, "", s:nord9_term, "", "", "")
-call s:hi("Keyword", s:nord9_gui, "", s:nord9_term, "", "", "")
+call s:hi("Keyword", s:nord9_gui, "", s:nord9_term, "", s:italic, "")
 call s:hi("Label", s:nord9_gui, "", s:nord9_term, "", "", "")
 call s:hi("Number", s:nord15_gui, "", s:nord15_term, "", "", "")
 call s:hi("Operator", s:nord9_gui, "", s:nord9_term, "", "NONE", "")
